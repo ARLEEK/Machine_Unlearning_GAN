@@ -11,7 +11,7 @@ train
 
 
 # Custom GAN
-
+Recursive post-training for machine unlearning in GANs using one-class SVDD filtering, evaluated on MNIST and CelebA-HQ.
 
 ## Load the data
 (1) Installing requirements: pip install -r gan/requirements.txt
