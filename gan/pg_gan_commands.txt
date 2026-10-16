@@ -1,0 +1,5 @@
+# generating images
+python3 pg_gan_celeb_hq.py generate --num_samples 16 --output_dir generated_samples_pgan
+
+# training
+python3 pg_gan_celeb_hq.py train --data_path /path/to/your/new_images --epochs 100
